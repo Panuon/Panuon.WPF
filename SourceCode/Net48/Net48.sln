@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panuon.WPF", "Panuon.WPF\Panuon.WPF.csproj", "{CAC8F513-AD17-41F1-BFF9-F0F351C5B53C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedResources", "SharedResources", "{D79276AA-1F00-434E-865D-C4F859E52430}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Panuon.WPF", "..\SharedResources\Panuon.WPF\Panuon.WPF.shproj", "{D52B3A17-B005-4393-9256-F7ED7FDB457F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAC8F513-AD17-41F1-BFF9-F0F351C5B53C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC8F513-AD17-41F1-BFF9-F0F351C5B53C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC8F513-AD17-41F1-BFF9-F0F351C5B53C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC8F513-AD17-41F1-BFF9-F0F351C5B53C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D52B3A17-B005-4393-9256-F7ED7FDB457F} = {D79276AA-1F00-434E-865D-C4F859E52430}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0E3F512-A020-48B7-8CAC-5B929B33712F}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\SharedResources\Panuon.WPF\Panuon.WPF.projitems*{cac8f513-ad17-41f1-bff9-f0f351c5b53c}*SharedItemsImports = 4
+		..\SharedResources\Panuon.WPF\Panuon.WPF.projitems*{d52b3a17-b005-4393-9256-f7ed7fdb457f}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
