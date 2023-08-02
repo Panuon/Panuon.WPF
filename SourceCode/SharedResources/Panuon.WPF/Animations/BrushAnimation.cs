@@ -153,7 +153,9 @@ namespace Panuon.WPF
         #endregion
 
         #region Function
-        private VisualBrush CreateBorderVisualBrush(Brush background, Brush foreground, double opacity)
+        private VisualBrush CreateBorderVisualBrush(Brush background,
+            Brush foreground,
+            double opacity)
         {
             var border = new Border()
             {
@@ -169,7 +171,10 @@ namespace Panuon.WPF
             return new VisualBrush(border);
         }
 
-        private VisualBrush CreateGridVisualBrush(Brush background, Brush foreground, double opacity1, double opacity2)
+        private VisualBrush CreateGridVisualBrush(Brush background,
+            Brush foreground,
+            double opacity1,
+            double opacity2)
         {
             var grid = new Grid()
             {

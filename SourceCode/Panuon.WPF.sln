@@ -35,6 +35,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedResources", "SharedRe
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Panuon.WPF", "SharedResources\Panuon.WPF\Panuon.WPF.shproj", "{D52B3A17-B005-4393-9256-F7ED7FDB457F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Net7", "Net7", "{D9A3ECE3-937C-463C-A73A-C3CF6610DA53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panuon.WPF", "Net7\Panuon.WPF\Panuon.WPF.csproj", "{F94DA9DB-5673-4D59-A83A-3BBD79B0ADBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,10 @@ Global
 		{7E4D888C-2E25-4C7B-9CA3-C3F0B8FE93C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E4D888C-2E25-4C7B-9CA3-C3F0B8FE93C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E4D888C-2E25-4C7B-9CA3-C3F0B8FE93C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F94DA9DB-5673-4D59-A83A-3BBD79B0ADBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F94DA9DB-5673-4D59-A83A-3BBD79B0ADBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F94DA9DB-5673-4D59-A83A-3BBD79B0ADBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F94DA9DB-5673-4D59-A83A-3BBD79B0ADBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +90,7 @@ Global
 		{87A0E532-DE0A-4E4E-8A4D-9D8BF418027A} = {3AF18312-D4E3-43C9-A982-F1EBBBFB893E}
 		{7E4D888C-2E25-4C7B-9CA3-C3F0B8FE93C3} = {FDF7DF31-4856-42D8-A705-EF30DDCB131D}
 		{D52B3A17-B005-4393-9256-F7ED7FDB457F} = {30F13E94-E1E8-4195-A1B8-684D3D9843FC}
+		{F94DA9DB-5673-4D59-A83A-3BBD79B0ADBA} = {D9A3ECE3-937C-463C-A73A-C3CF6610DA53}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6AD5FE17-65DC-4DAA-B47A-A9DB3BECD8BF}
@@ -95,5 +104,6 @@ Global
 		SharedResources\Panuon.WPF\Panuon.WPF.projitems*{cac8f513-ad17-41f1-bff9-f0f351c5b53c}*SharedItemsImports = 4
 		SharedResources\Panuon.WPF\Panuon.WPF.projitems*{d52b3a17-b005-4393-9256-f7ed7fdb457f}*SharedItemsImports = 13
 		SharedResources\Panuon.WPF\Panuon.WPF.projitems*{dee57f1c-cf91-4745-8919-cfbc05bb6df1}*SharedItemsImports = 4
+		SharedResources\Panuon.WPF\Panuon.WPF.projitems*{f94da9db-5673-4d59-a83a-3bbd79b0adba}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal
