@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.ComponentModel;
@@ -9,6 +10,11 @@ namespace Panuon.WPF
     public class ObservableCollectionX<T> 
         : ObservableCollection<T>
     {
+        #region Fields
+        private bool _isUpdating;
+        private bool _isAnyUpdated;
+        #endregion
+
         #region Ctor
         public ObservableCollectionX()
             : base()
@@ -30,12 +36,58 @@ namespace Panuon.WPF
         #region Overrides
         protected override void OnCollectionChanged(NotifyCollectionChangedEventArgs e)
         {
+            if (_isUpdating)
+            {
+                _isAnyUpdated = true;
+                return;
+            }
             base.OnCollectionChanged(e);
             OnPropertyChanged(new PropertyChangedEventArgs(nameof(HasItems)));
         }
         #endregion
 
         #region Methods
+        public void BeginUpdate()
+        {
+            _isAnyUpdated = false;
+            _isUpdating = true;
+        }
+
+        public void EndUpdate()
+        {
+            _isUpdating = false;
+            if (!_isAnyUpdated)
+            {
+                return;
+            }
+            try
+            {
+                base.OnCollectionChanged(new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Reset));
+            }
+            finally
+            {
+                _isAnyUpdated = false;
+            }
+        }
+
+        public void AddRange(IEnumerable<T> items)
+        {
+            _isUpdating = true;
+            try
+            {
+                foreach (var item in items)
+                {
+                    Add(item);
+                }
+                base.OnCollectionChanged(new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Add,
+                    items));
+            }
+            finally
+            {
+                _isUpdating = false;
+            }
+        }
+
         public new void Clear()
         {
             var items = Items.ToList();
