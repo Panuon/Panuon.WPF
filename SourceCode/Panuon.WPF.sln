@@ -39,6 +39,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Net7", "Net7", "{D9A3ECE3-9
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panuon.WPF", "Net7\Panuon.WPF\Panuon.WPF.csproj", "{F94DA9DB-5673-4D59-A83A-3BBD79B0ADBA}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Panuon.WPF.Internal", "SharedResources\Panuon.WPF.Internal\Panuon.WPF.Internal.shproj", "{EDE2A0B9-912B-4E81-87BA-80237E7949F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net8", "net8", "{74D0B6B0-C946-4871-A017-D3F54E5E7865}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panuon.WPF", "net8\Panuon.WPF\Panuon.WPF.csproj", "{FED7CE38-5291-44F7-95E5-F41FEDB6D42E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +83,10 @@ Global
 		{F94DA9DB-5673-4D59-A83A-3BBD79B0ADBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F94DA9DB-5673-4D59-A83A-3BBD79B0ADBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F94DA9DB-5673-4D59-A83A-3BBD79B0ADBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED7CE38-5291-44F7-95E5-F41FEDB6D42E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED7CE38-5291-44F7-95E5-F41FEDB6D42E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED7CE38-5291-44F7-95E5-F41FEDB6D42E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED7CE38-5291-44F7-95E5-F41FEDB6D42E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,19 +101,32 @@ Global
 		{7E4D888C-2E25-4C7B-9CA3-C3F0B8FE93C3} = {FDF7DF31-4856-42D8-A705-EF30DDCB131D}
 		{D52B3A17-B005-4393-9256-F7ED7FDB457F} = {30F13E94-E1E8-4195-A1B8-684D3D9843FC}
 		{F94DA9DB-5673-4D59-A83A-3BBD79B0ADBA} = {D9A3ECE3-937C-463C-A73A-C3CF6610DA53}
+		{EDE2A0B9-912B-4E81-87BA-80237E7949F8} = {30F13E94-E1E8-4195-A1B8-684D3D9843FC}
+		{FED7CE38-5291-44F7-95E5-F41FEDB6D42E} = {74D0B6B0-C946-4871-A017-D3F54E5E7865}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6AD5FE17-65DC-4DAA-B47A-A9DB3BECD8BF}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedResources\Panuon.WPF.Internal\Panuon.WPF.Internal.projitems*{267de9ca-6a1b-463f-bb9f-bf68de6515df}*SharedItemsImports = 5
 		SharedResources\Panuon.WPF\Panuon.WPF.projitems*{267de9ca-6a1b-463f-bb9f-bf68de6515df}*SharedItemsImports = 5
+		SharedResources\Panuon.WPF.Internal\Panuon.WPF.Internal.projitems*{5bba9b60-a3cc-4a20-8cb2-72b8f87cc289}*SharedItemsImports = 4
 		SharedResources\Panuon.WPF\Panuon.WPF.projitems*{5bba9b60-a3cc-4a20-8cb2-72b8f87cc289}*SharedItemsImports = 4
+		SharedResources\Panuon.WPF.Internal\Panuon.WPF.Internal.projitems*{7e4d888c-2e25-4c7b-9ca3-c3f0b8fe93c3}*SharedItemsImports = 5
 		SharedResources\Panuon.WPF\Panuon.WPF.projitems*{7e4d888c-2e25-4c7b-9ca3-c3f0b8fe93c3}*SharedItemsImports = 5
+		SharedResources\Panuon.WPF.Internal\Panuon.WPF.Internal.projitems*{87a0e532-de0a-4e4e-8a4d-9d8bf418027a}*SharedItemsImports = 4
 		SharedResources\Panuon.WPF\Panuon.WPF.projitems*{87a0e532-de0a-4e4e-8a4d-9d8bf418027a}*SharedItemsImports = 4
+		SharedResources\Panuon.WPF.Internal\Panuon.WPF.Internal.projitems*{9c35363e-f548-4fe4-94fb-aec45f0de2fb}*SharedItemsImports = 5
 		SharedResources\Panuon.WPF\Panuon.WPF.projitems*{9c35363e-f548-4fe4-94fb-aec45f0de2fb}*SharedItemsImports = 5
+		SharedResources\Panuon.WPF.Internal\Panuon.WPF.Internal.projitems*{cac8f513-ad17-41f1-bff9-f0f351c5b53c}*SharedItemsImports = 4
 		SharedResources\Panuon.WPF\Panuon.WPF.projitems*{cac8f513-ad17-41f1-bff9-f0f351c5b53c}*SharedItemsImports = 4
 		SharedResources\Panuon.WPF\Panuon.WPF.projitems*{d52b3a17-b005-4393-9256-f7ed7fdb457f}*SharedItemsImports = 13
+		SharedResources\Panuon.WPF.Internal\Panuon.WPF.Internal.projitems*{dee57f1c-cf91-4745-8919-cfbc05bb6df1}*SharedItemsImports = 4
 		SharedResources\Panuon.WPF\Panuon.WPF.projitems*{dee57f1c-cf91-4745-8919-cfbc05bb6df1}*SharedItemsImports = 4
+		SharedResources\Panuon.WPF.Internal\Panuon.WPF.Internal.projitems*{ede2a0b9-912b-4e81-87ba-80237e7949f8}*SharedItemsImports = 13
+		SharedResources\Panuon.WPF.Internal\Panuon.WPF.Internal.projitems*{f94da9db-5673-4d59-a83a-3bbd79b0adba}*SharedItemsImports = 5
 		SharedResources\Panuon.WPF\Panuon.WPF.projitems*{f94da9db-5673-4d59-a83a-3bbd79b0adba}*SharedItemsImports = 5
+		SharedResources\Panuon.WPF.Internal\Panuon.WPF.Internal.projitems*{fed7ce38-5291-44f7-95e5-f41fedb6d42e}*SharedItemsImports = 5
+		SharedResources\Panuon.WPF\Panuon.WPF.projitems*{fed7ce38-5291-44f7-95e5-f41fedb6d42e}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal

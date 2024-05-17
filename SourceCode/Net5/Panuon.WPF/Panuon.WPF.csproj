@@ -8,13 +8,15 @@
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-		<OutputPath>..\..\Outputs\Debug\Net5\</OutputPath>
+		<OutputPath>..\..\Outputs\Debug\net5\</OutputPath>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-		<OutputPath>..\..\Outputs\Release\Net5\</OutputPath>
+		<OutputPath>..\..\Outputs\Release\net5\</OutputPath>
 	</PropertyGroup>
 
 	<Import Project="..\..\SharedResources\Panuon.WPF\Panuon.WPF.projitems" Label="Shared" />
+
+	<Import Project="..\..\SharedResources\Panuon.WPF.Internal\Panuon.WPF.Internal.projitems" Label="Shared" />
 
 </Project>
