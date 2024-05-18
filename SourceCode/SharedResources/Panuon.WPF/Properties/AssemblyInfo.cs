@@ -19,5 +19,5 @@ using System.Windows.Markup;
 [assembly: InternalsVisibleTo("Panuon.WPF.UI")]
 [assembly: InternalsVisibleTo("Panuon.WPF.UI.Themes")]
 
-[assembly: AssemblyVersion("1.1.0")]
-[assembly: AssemblyFileVersion("1.1.0")]
+[assembly: AssemblyVersion("1.1.0.1")]
+[assembly: AssemblyFileVersion("1.1.0.1")]
