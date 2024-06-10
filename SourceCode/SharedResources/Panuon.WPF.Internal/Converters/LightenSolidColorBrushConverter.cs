@@ -12,7 +12,7 @@ namespace Panuon.WPF.Internal.Converters
             var brush = value as SolidColorBrush;
             if (brush == null)
             {
-                return value;
+                return null;
             }
             double.TryParse(parameter?.ToString(), out double percent);
             if(percent == 1)

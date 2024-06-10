@@ -72,17 +72,19 @@ namespace Panuon.WPF
 
         public void AddRange(IEnumerable<T> items)
         {
-            BeginUpdate();
+            if (!items.Any())
+            {
+                return;
+            }
+
             try
             {
-                var listItems = items.ToList();
-                foreach (var item in listItems)
+                BeginUpdate();
+
+                foreach (var item in items)
                 {
                     Add(item);
                 }
-                base.OnCollectionChanged(new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Add,
-                    listItems,
-                    0));
             }
             finally
             {
@@ -92,11 +94,19 @@ namespace Panuon.WPF
 
         public new void Clear()
         {
-            var items = Items.ToList();
-            base.Clear();
-            OnCollectionChanged(new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Remove, 
-                items, 
-                0));
+            if (!Items.Any())
+            {
+                return;
+            }
+            try
+            {
+                BeginUpdate();
+                base.Clear();
+            }
+            finally
+            {
+                EndUpdate();
+            }
         }
         #endregion
     }
