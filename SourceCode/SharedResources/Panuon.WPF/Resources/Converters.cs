@@ -24,6 +24,7 @@ namespace Panuon.WPF.Resources
         public static IValueConverter GetEnumDescriptionConverter = new GetEnumDescriptionConverter();
         public static IValueConverter GetTypeConverter = new GetTypeNameConverter();
         public static IValueConverter GetTypeNameConverter = new GetTypeNameConverter();
+        public static IValueConverter HasEnumFlagConverter = new HasEnumFlagConverter();
         public static IValueConverter IntDivideByConverter = new IntDivideByConverter();
         public static IValueConverter IsDoubleEqualToConverter = new IsDoubleEqualToConverter();
         public static IValueConverter IsDoubleNotEqualToConverter = new IsDoubleNotEqualToConverter();

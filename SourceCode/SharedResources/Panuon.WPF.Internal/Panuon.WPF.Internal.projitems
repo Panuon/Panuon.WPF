@@ -26,8 +26,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)Converters\FalseToCollapseConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\FalseToHiddenConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\GetEnumDescriptionConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\GetIndexOfItemsControlConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\GetTypeNameConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\GetTypeConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\HasEnumFlagConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\IntDivideByConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\IntMinusConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\IntMultiplyByConverter.cs" />

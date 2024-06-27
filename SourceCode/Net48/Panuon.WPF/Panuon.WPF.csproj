@@ -48,7 +48,7 @@
   <ItemGroup>
     <Folder Include="Properties\" />
   </ItemGroup>
-  <Import Project="..\..\SharedResources\Panuon.WPF\Panuon.WPF.projitems" Label="Shared" />
-  <Import Project="..\..\SharedResources\Panuon.WPF.Internal\Panuon.WPF.Internal.projitems" Label="Shared" />
+  <Import Project="..\..\sharedResources\Panuon.WPF\Panuon.WPF.projitems" Label="Shared" />
+  <Import Project="..\..\sharedResources\Panuon.WPF.Internal\Panuon.WPF.Internal.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

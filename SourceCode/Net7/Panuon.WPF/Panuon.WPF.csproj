@@ -8,9 +8,9 @@
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
 	</PropertyGroup>
 
-	<Import Project="..\..\SharedResources\Panuon.WPF\Panuon.WPF.projitems" Label="Shared" />
+	<Import Project="..\..\sharedResources\Panuon.WPF\Panuon.WPF.projitems" Label="Shared" />
 
-	<Import Project="..\..\SharedResources\Panuon.WPF.Internal\Panuon.WPF.Internal.projitems" Label="Shared" />
+	<Import Project="..\..\sharedResources\Panuon.WPF.Internal\Panuon.WPF.Internal.projitems" Label="Shared" />
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
 		<OutputPath>..\..\Outputs\Debug\net7\</OutputPath>

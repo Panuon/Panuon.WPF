@@ -8,16 +8,16 @@
 	  <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
 
-  <Import Project="..\..\SharedResources\Panuon.WPF\Panuon.WPF.projitems" Label="Shared" />
-
-  <Import Project="..\..\SharedResources\Panuon.WPF.Internal\Panuon.WPF.Internal.projitems" Label="Shared" />
-
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-		<OutputPath>..\..\Outputs\Debug\net8\</OutputPath>
+		<OutputPath>..\..\outputs\Debug\net8\</OutputPath>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-		<OutputPath>..\..\Outputs\Release\net8\</OutputPath>
+		<OutputPath>..\..\outputs\Release\net8\</OutputPath>
 	</PropertyGroup>
+
+	<Import Project="..\..\sharedResources\Panuon.WPF\Panuon.WPF.projitems" Label="Shared" />
+
+	<Import Project="..\..\sharedResources\Panuon.WPF.Internal\Panuon.WPF.Internal.projitems" Label="Shared" />
 	
 </Project>

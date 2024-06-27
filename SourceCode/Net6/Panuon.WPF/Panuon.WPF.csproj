@@ -16,8 +16,8 @@
 		<OutputPath>..\..\Outputs\Release\net6\</OutputPath>
 	</PropertyGroup>
 
-	<Import Project="..\..\SharedResources\Panuon.WPF\Panuon.WPF.projitems" Label="Shared" />
+	<Import Project="..\..\sharedResources\Panuon.WPF\Panuon.WPF.projitems" Label="Shared" />
 
-	<Import Project="..\..\SharedResources\Panuon.WPF.Internal\Panuon.WPF.Internal.projitems" Label="Shared" />
+	<Import Project="..\..\sharedResources\Panuon.WPF.Internal\Panuon.WPF.Internal.projitems" Label="Shared" />
 
 </Project>
