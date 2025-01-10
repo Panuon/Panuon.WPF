@@ -13,6 +13,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)Converters\BoolOrConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\BrushToColorConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\ColorToBrushConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\CornerRadiusXConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\CornerRadiusXToCornerRadiusConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\DoubleDivideByConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\DoubleHalfToCornerRadiusConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\DoubleIsConverter.cs" />
@@ -23,6 +25,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Converters\DoubleToCornerRadiusConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\DoubleToGridLengthConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\DoubleToThicknessConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\DoubleXConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\FalseToCollapseConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\FalseToHiddenConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\GetEnumDescriptionConverter.cs" />

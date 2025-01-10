@@ -1,4 +1,5 @@
 ﻿using Panuon.WPF.Internal.Converters;
+using Panuon.WPF.UI.Internal.Converters;
 using System.Windows.Data;
 
 namespace Panuon.WPF.Resources
@@ -9,6 +10,7 @@ namespace Panuon.WPF.Resources
         public static IMultiValueConverter BoolOrConverter = new BoolOrConverter();
         public static IValueConverter BrushToColorConverter = new BrushToColorConverter();
         public static IValueConverter ColorToBrushConverter = new ColorToBrushConverter();
+        public static IMultiValueConverter CornerRadiusXToCornerRadiusConverter = new CornerRadiusXToCornerRadiusConverter();
         public static IValueConverter DoubleDivideByConverter = new DoubleDivideByConverter();
         public static IMultiValueConverter IsAllDoublesEqualConverter = new IsAllDoublesEqualConverter();
         public static IValueConverter DoubleIsConverter = new DoubleIsConverter();
