@@ -13,6 +13,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)Converters\BoolOrConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\BrushToColorConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\ColorToBrushConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\CollectionNullOrEmptyToCollapseConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\CollectionNullOrEmptyToVisibleConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\CornerRadiusXConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\CornerRadiusXToCornerRadiusConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\DoubleDivideByConverter.cs" />
